@@ -10,7 +10,7 @@ export default function Navbar() {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="posts">Blog Posts</a>
+            <a href="/posts">Blog Posts</a>
           </li>
         </ul>
       </div>
