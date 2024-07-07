@@ -93,5 +93,13 @@
         "content": "As a new developer, this post is incredibly helpful. Thank you for sharing!"
       }
     ]
+  },
+  {
+    "title": "How to create a CMS using only JSON and NextJS",
+    "author": "Level Lawrence",
+    "date": "2024-07-07",
+    "content": "Creating a next app and using JSON is simple and easy once you stop pulling your hair out. Hosting your app will be the next nightmare. 1. Create a new next app using 'npx create-next-app@latest'. 2. Make sure you set up a github repo to house your project as well as linking it to https:www.//netlify.com/. Finally, link your app to the json file using the './../method to link to the relative file path. From there you can treat it just like data you get from an API. It will come in as an array so no need to JSON.stringify the data coming. See my github repo for examples of how to achieve this result:'https://github.com/LawrenceLevel-FS/my-blog.git' . Happy coding!",
+    "tags": ["Coding", "Web Development"],
+    "comments": []
   }
 ]
