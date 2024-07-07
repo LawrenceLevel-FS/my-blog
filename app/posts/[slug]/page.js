@@ -13,14 +13,31 @@ export default function RenderPosts(props) {
           <p>Posted: {blogPosts[slug].date}</p>
         </div>
       </div>
-      <p>{blogPosts[slug].content}</p>
+      <p className="w-3/4">{blogPosts[slug].content}</p>
       <div>
         <ul className="flex mt-2 text-xs text-gray-500">
-          Tags:[
+          <span className="font-bold">Tags: </span> [
           {blogPosts[slug].tags.map((tag) => (
             <li>{tag} ,</li>
           ))}
           ]
+        </ul>
+      </div>
+      <div>
+        <p>comments: </p>
+        <ul className="mt-14">
+          {blogPosts[slug].comments.map((comment) => {
+            return (
+              <li>
+                <div className="flex items-center mt-4">
+                  <p className="bg-green-500 w-10 h-10 rounded-full text-center">
+                    {comment.author[0]}
+                  </p>
+                  <p>{comment.author}</p>
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>
