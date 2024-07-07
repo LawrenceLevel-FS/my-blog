@@ -1,6 +1,6 @@
-"use client";
 import blogPosts from "../cms/blogCMS.json";
 import Link from "next/link";
+import { uuid } from "uuidv4";
 
 export default function Posts() {
   return (
@@ -11,7 +11,7 @@ export default function Posts() {
       <ul>
         {blogPosts.map((post, index) => {
           return (
-            <li className="mb-4">
+            <li key={uuid()} className="mb-4">
               <Link className="text-xl" href={`/posts/${index}`}>
                 {post.title}
               </Link>
@@ -22,9 +22,11 @@ export default function Posts() {
               <p className="text-xs mt-1 text-gray-500">
                 {post.content.substring(0, 70) + "...."}
               </p>
-              <button className="mt-2 text-sm text-green-900 bg-green-400 p-1 rounded border-green-500 border-4">
-                <a href={`/posts/${index}`}>Read More</a>
-              </button>
+              <a href={`/posts/${index}`}>
+                <button className="mt-2 text-sm text-green-900 bg-green-400 p-1 rounded border-green-500 border-4">
+                  Read More
+                </button>
+              </a>
             </li>
           );
         })}{" "}
