@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function RenderPosts({ post }) {
   if (!post) {
     return <p>Post not found</p>;
@@ -6,6 +8,19 @@ export default function RenderPosts({ post }) {
   return (
     <section className="mt-20 container mx-auto">
       <div id="headline" className="mb-4">
+        <div className="h-96 w-full mb-4 flex">
+          {post.image ? (
+            <Image
+              className="w-3/4 object-cover object-top"
+              src={post.image}
+              width={0}
+              height={0}
+            />
+          ) : (
+            <p></p>
+          )}
+        </div>
+
         <h1 className="text-4xl text-green-500">{post.title}</h1>
         <div className="text-gray-500 text-sm mt-1 flex gap-4">
           <p>By: {post.author}</p>
