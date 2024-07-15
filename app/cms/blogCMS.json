@@ -5,6 +5,7 @@
     "date": "2024-01-15",
     "content": "Artificial Intelligence is transforming the world as we know it. In this post, we explore the latest advancements and what the future might hold. From self-driving cars to advanced machine learning algorithms, AI is making waves in various industries. We also discuss the ethical considerations and potential challenges that come with the rapid development of AI technology.",
     "tags": ["AI", "Technology", "Future"],
+    "image": "",
     "comments": [
       {
         "author": "Alex Johnson",
@@ -24,6 +25,7 @@
     "date": "2024-03-22",
     "content": "Join me as I share my experiences hiking through the stunning landscapes of the Alps. From breathtaking views to challenging trails, this journey has it all. I'll provide tips on the best routes, what to pack, and how to prepare for different weather conditions. Whether you're an experienced hiker or a beginner, the Alps offer something for everyone.",
     "tags": ["Travel", "Adventure", "Nature"],
+    "image": "",
     "comments": [
       {
         "author": "Lisa Williams",
@@ -43,6 +45,7 @@
     "date": "2024-05-05",
     "content": "Mindfulness is more than just a buzzword. It's a practice that can significantly improve your mental and physical well-being. Learn how to incorporate mindfulness into your daily routine with simple exercises and techniques. We'll cover breathing exercises, meditation, and ways to stay present in the moment. Discover how mindfulness can help reduce stress, improve focus, and enhance your overall quality of life.",
     "tags": ["Wellness", "Mindfulness", "Mental Health"],
+    "image": "",
     "comments": [
       {
         "author": "Chris Lee",
@@ -62,6 +65,7 @@
     "date": "2024-06-10",
     "content": "Gardening can be a relaxing and rewarding hobby. This guide covers the basics to help you start your own garden, from selecting plants to maintaining your garden year-round. We'll discuss soil types, watering schedules, and how to deal with common pests. Whether you have a small balcony or a large backyard, gardening is a great way to connect with nature and enjoy the fruits of your labor.",
     "tags": ["Gardening", "Hobbies", "Lifestyle"],
+    "image": "",
     "comments": [
       {
         "author": "Emily Carter",
@@ -81,6 +85,7 @@
     "date": "2024-07-01",
     "content": "Good coding practices are essential for efficient and maintainable software development. Here are the top 10 practices that every developer should follow: 1. Write clear and concise code comments. 2. Use meaningful variable and function names. 3. Keep functions and classes small and focused. 4. Test your code thoroughly. 5. Use version control. 6. Optimize for readability. 7. Follow coding standards. 8. Refactor regularly. 9. Document your code. 10. Continuously learn and improve. By following these practices, you can write better code and become a more effective developer.",
     "tags": ["Coding", "Software Development", "Best Practices"],
+    "image": "",
     "comments": [
       {
         "author": "David Miller",
@@ -100,6 +105,16 @@
     "date": "2024-07-07",
     "content": "Creating a next app and using JSON is simple and easy once you stop pulling your hair out. Hosting your app will be the next nightmare. 1. Create a new next app using 'npx create-next-app@latest'. 2. Make sure you set up a github repo to house your project as well as linking it to https:www.//netlify.com/. Finally, link your app to the json file using the './../method to link to the relative file path. From there you can treat it just like data you get from an API. It will come in as an array so no need to JSON.stringify the data coming. See my github repo for examples of how to achieve this result:'https://github.com/LawrenceLevel-FS/my-blog.git' . Happy coding!",
     "tags": ["Coding", "Web Development"],
+    "image": "",
+    "comments": []
+  },
+  {
+    "title": "How to deploy your API to Heroku",
+    "author": "Level Lawrence",
+    "date": "2024-07-14",
+    "content": "Have you ever wondered how you could get your API up and running in the wild quickly? Try using Heroku! It’s a fast and simple way to get your API working and easy to maintain if you’re using GitHub. First, create a GitHub repository and initialize your project directory as a Git repository. Add your project files, commit them, and push them to GitHub using the commands git init, git add ., git commit -m 'Initial commit', git remote add origin <your-github-repo-url>, and git push -u origin master. Next, navigate to the Heroku website and sign up or log in to your account. Once logged in, click on the 'New' button and select 'Create new app'. Give your app a unique name and choose your region. After creating your app, you will be directed to the app dashboard. Under the 'Deploy' tab, select 'GitHub' as the deployment method. Connect your GitHub account to Heroku, and then search for and select your repository. Make sure that your .env and node_modules directories are excluded from your repository by adding them to your .gitignore file. Ensure all necessary dependencies are listed in your package.json file, not as dev dependencies, to make sure they are available in the production environment. Once connected, you can enable automatic deploys for continuous deployment or manually deploy a specific branch.",
+    "tags": ["Coding", "Web Development"],
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "comments": []
   }
 ]
