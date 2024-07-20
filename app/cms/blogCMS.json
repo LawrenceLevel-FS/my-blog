@@ -116,5 +116,14 @@
     "tags": ["Coding", "Web Development"],
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "comments": []
+  },
+  {
+    "title": "What is React Native?",
+    "author": "Level Lawrence",
+    "date": "2024-07-20",
+    "content": "Want to learn how to create a mobile app but all you have is web development skills? Introducing react native. React Native is a popular framework used for building mobile applications using JavaScript/React’s learn once use anywhere model. Developed by Facebook, react native allows developers to create apps for both iOS and Android. This system saves a lot of time and effort. One of the most interesting things about React Native is its ability to provide a near “native” performance,look, and feel. This means that apps built with React Native can feel as smooth and responsive as those developed with Swift or Kotlin. React Native truly is a game changer for anyone looking into mobile app development.",
+    "tags": ["Coding", "Web Development"],
+    "image": "https://images.unsplash.com/photo-1552308995-2baac1ad5490?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "comments": []
   }
 ]
